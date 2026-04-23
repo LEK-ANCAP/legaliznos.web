@@ -85,10 +85,10 @@ export function Navbar() {
           {/* Nav Pill */}
           <motion.nav 
             layout
-            className="bg-white/70 backdrop-blur-2xl border-[1.5px] border-black/10 shadow-[0_8px_30px_rgb(0,0,0,0.06),0_2px_10px_rgb(0,0,0,0.03)] rounded-full h-14 flex items-center justify-between p-1 pl-2 transition-colors relative"
+            className="bg-white/70 backdrop-blur-2xl border-[1.5px] border-black/10 shadow-[0_8px_30px_rgb(0,0,0,0.06),0_2px_10px_rgb(0,0,0,0.03)] rounded-full h-14 flex items-center justify-between p-1 pl-4 transition-colors relative"
           >
             {/* Left: Logo & Brand */}
-            <motion.div layout className="flex items-center gap-2 pr-2">
+            <motion.div layout className="flex items-center gap-2.5 pr-2">
               <div className="relative w-9 h-9 shrink-0">
                 <div className="relative w-full h-full overflow-hidden rounded-full">
                   <Image 

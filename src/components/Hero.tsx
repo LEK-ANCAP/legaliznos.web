@@ -1,5 +1,5 @@
 import Image from "next/image";
-import heroImg from "@/images/sOruG1yD04wP5K71odsYvgH4sg.avif";
+import heroImg from "@/images/hero.png";
 import { MessageCircle, Clock, Globe } from "lucide-react";
 
 export function Hero() {

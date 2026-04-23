@@ -65,8 +65,8 @@ export function Pricing() {
           </p>
         </div>
 
-        {/* Pricing List (Modern Table) */}
-        <div className="bg-white border-[8px] border-[#EAEAEA] rounded-[32px] p-6 md:p-10 shadow-[0_8px_30px_rgba(0,0,0,0.02)] mb-12">
+        {/* Pricing List Container */}
+        <div className="bg-transparent md:bg-white md:border-[8px] md:border-[#EAEAEA] md:rounded-[32px] md:p-10 md:shadow-[0_8px_30px_rgba(0,0,0,0.02)] mb-12">
           
           {/* Table Header (Desktop Only) */}
           <div className="hidden md:flex border-b border-black/10 pb-4 mb-2 gap-6 px-4">
@@ -76,38 +76,57 @@ export function Pricing() {
             <div className="w-[30%] text-[12px] font-extrabold text-black/40 uppercase tracking-wider">Incluye</div>
           </div>
 
-          {/* Table Rows */}
-          <div className="flex flex-col">
+          {/* Render List */}
+          <div className="flex flex-col gap-5 md:gap-0">
             {pricingList.map((item, index) => (
-              <div 
-                key={index} 
-                className={`flex flex-col md:flex-row md:items-center py-6 gap-4 md:gap-6 px-4 group hover:bg-[#FAFAFA] rounded-xl transition-colors
-                  ${index !== pricingList.length - 1 ? 'border-b border-black/5' : ''}
-                `}
-              >
+              <React.Fragment key={index}>
                 
-                {/* Mobile Labels are implicit through structure, but we keep it clear */}
-                <div className="md:w-[35%]">
-                  <h4 className="text-[18px] md:text-[17px] font-bold text-black tracking-tight">{item.service}</h4>
-                </div>
-                
-                <div className="flex items-center gap-3 md:w-[15%]">
-                  <div className="bg-[#FAFAFA] group-hover:bg-white border border-black/5 rounded-lg px-3 py-1.5 flex items-center justify-center whitespace-nowrap shadow-sm transition-colors">
-                      <span className="text-[15px] font-extrabold text-black tracking-tight">{item.price}</span>
+                {/* 1. MOBILE CARD */}
+                <div className="md:hidden flex flex-col bg-white border border-black/10 rounded-[28px] p-7 shadow-[0_8px_30px_rgba(0,0,0,0.04)] relative">
+                  <div className="flex justify-between items-start gap-4 mb-6">
+                    <h4 className="text-[18px] font-extrabold text-black leading-snug w-[75%]">{item.service}</h4>
+                    <div className="bg-black text-white rounded-xl px-3.5 py-1.5 shrink-0 flex items-center justify-center shadow-md">
+                        <span className="text-[14px] font-extrabold tracking-wide">{item.price}</span>
+                    </div>
+                  </div>
+                  
+                  <div className="flex flex-col gap-5">
+                    <div className="flex flex-col">
+                      <span className="text-[11px] font-bold text-black/30 uppercase tracking-widest mb-1.5">Plazo estimado</span>
+                      <span className="text-[15px] font-bold text-black/70">{item.time}</span>
+                    </div>
+                    
+                    <div className="h-[1px] w-full bg-black/5"></div>
+                    
+                    <div className="flex flex-col">
+                      <span className="text-[11px] font-bold text-black/30 uppercase tracking-widest mb-1.5">Qué Incluye</span>
+                      <span className="text-[15px] font-medium text-black/70 leading-relaxed">{item.includes}</span>
+                    </div>
                   </div>
                 </div>
 
-                <div className="md:w-[20%] flex items-center gap-2">
-                  <span className="md:hidden text-[13px] font-bold text-black/40 uppercase tracking-wider">Plazo:</span>
-                  <span className="text-[15px] font-medium text-black/60">{item.time}</span>
+                {/* 2. DESKTOP ROW */}
+                <div className="hidden md:flex md:flex-row md:items-center py-6 gap-6 px-4 group hover:bg-[#FAFAFA] rounded-xl transition-colors border-b border-black/5 last:border-b-0">
+                  <div className="w-[35%]">
+                    <h4 className="text-[17px] font-bold text-black tracking-tight">{item.service}</h4>
+                  </div>
+                  
+                  <div className="flex items-center gap-3 w-[15%]">
+                    <div className="bg-[#FAFAFA] group-hover:bg-white border border-black/5 rounded-lg px-3 py-1.5 flex items-center justify-center whitespace-nowrap shadow-sm transition-colors">
+                        <span className="text-[15px] font-extrabold text-black tracking-tight">{item.price}</span>
+                    </div>
+                  </div>
+
+                  <div className="w-[20%] flex items-center gap-2">
+                    <span className="text-[15px] font-medium text-black/60">{item.time}</span>
+                  </div>
+
+                  <div className="w-[30%] flex items-start gap-2">
+                    <span className="text-[15px] font-medium text-black/70 leading-snug block">{item.includes}</span>
+                  </div>
                 </div>
 
-                <div className="md:w-[30%] flex items-start gap-2">
-                  <span className="md:hidden text-[13px] font-bold text-black/40 uppercase tracking-wider mt-0.5">Incluye:</span>
-                  <span className="text-[15px] font-medium text-black/70 leading-snug block">{item.includes}</span>
-                </div>
-
-              </div>
+              </React.Fragment>
             ))}
           </div>
 

@@ -1,0 +1,27 @@
+name: Deploy Production
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to VPS via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          # Ajusta la ruta '/var/www/legalizanos.com' según la ubicación real de tu proyecto en el VPS
+          script: |
+            # Ir al directorio del proyecto (Asegúrate de que esta ruta sea la correcta en tu VPS)
+            cd /var/www/legalizanos.com
+            
+            # Obtener los últimos cambios de la rama main
+            git pull origin main
+            
+            # Reconstruir y levantar el contenedor en modo demonio
+            docker compose up -d --build
