@@ -144,6 +144,12 @@ export function Navbar() {
                         <Dropdown.Item key="doc" href="/legalizacion-documentos-cubanos" textValue="Legalización de Documentos" className="rounded-xl py-2 px-3 hover:bg-black/5 transition-colors cursor-pointer data-[hover=true]:bg-black/5">
                           <Label className="cursor-pointer">Legalización de Documentos</Label>
                         </Dropdown.Item>
+                        <Dropdown.Item key="expres" href="/legalizacion-expres" textValue="Legalización Exprés" className="rounded-xl py-2 px-3 hover:bg-black/5 transition-colors cursor-pointer data-[hover=true]:bg-black/5">
+                          <Label className="cursor-pointer">Legalización Exprés</Label>
+                        </Dropdown.Item>
+                        <Dropdown.Item key="doc-espanoles" href="/legalizacion-documentos-espanoles-cuba" textValue="Documentos Españoles para Cuba" className="rounded-xl py-2 px-3 hover:bg-black/5 transition-colors cursor-pointer data-[hover=true]:bg-black/5">
+                          <Label className="cursor-pointer">Documentos Españoles para Cuba</Label>
+                        </Dropdown.Item>
                         <Dropdown.Item key="visados" href="/visados-cuba-espana" textValue="Visados desde Cuba" className="rounded-xl py-2 px-3 hover:bg-black/5 transition-colors cursor-pointer data-[hover=true]:bg-black/5">
                           <Label className="cursor-pointer">Visados desde Cuba</Label>
                         </Dropdown.Item>
@@ -156,12 +162,15 @@ export function Navbar() {
                         <Dropdown.Item key="reagrupacion" href="/reagrupacion-familiar-cubanos-espana" textValue="Reagrupación Familiar" className="rounded-xl py-2 px-3 hover:bg-black/5 transition-colors cursor-pointer data-[hover=true]:bg-black/5">
                           <Label className="cursor-pointer">Reagrupación Familiar</Label>
                         </Dropdown.Item>
+                        <Dropdown.Item key="tramitacion" href="/tramitacion-consular-cuba" textValue="Tramitación Consular en Cuba" className="rounded-xl py-2 px-3 hover:bg-black/5 transition-colors cursor-pointer data-[hover=true]:bg-black/5">
+                          <Label className="cursor-pointer">Tramitación Consular en Cuba</Label>
+                        </Dropdown.Item>
                         
                         <Separator className="my-1 bg-black/10 h-[1px] w-full" />
                         
-                        <Dropdown.Item id="all" textValue="Todos los servicios" className="rounded-xl py-2 px-3 hover:bg-black/5 transition-colors cursor-pointer data-[hover=true]:bg-black/5">
+                        <Dropdown.Item id="all" href="/precios" textValue="Todos los servicios y precios" className="rounded-xl py-2 px-3 hover:bg-black/5 transition-colors cursor-pointer data-[hover=true]:bg-black/5">
                           <div className="flex items-center gap-2">
-                            <Label className="font-bold cursor-pointer">Todos los servicios</Label>
+                            <Label className="font-bold cursor-pointer">Todos los servicios y precios</Label>
                             <span className="text-black/50">→</span>
                           </div>
                         </Dropdown.Item>
@@ -264,11 +273,14 @@ export function Navbar() {
                   <span className="px-4 py-2 text-[12px] font-bold text-black/40 uppercase tracking-wider">Servicios</span>
                   <div className="flex flex-col gap-1 pl-2">
                     <a href="/legalizacion-documentos-cubanos" onClick={() => setIsMobileOpen(false)} className="px-4 py-2 hover:bg-black/5 rounded-xl text-[14px] font-semibold text-black transition-colors">Legalización de Documentos</a>
+                    <a href="/legalizacion-expres" onClick={() => setIsMobileOpen(false)} className="px-4 py-2 hover:bg-black/5 rounded-xl text-[14px] font-semibold text-black transition-colors">Legalización Exprés</a>
+                    <a href="/legalizacion-documentos-espanoles-cuba" onClick={() => setIsMobileOpen(false)} className="px-4 py-2 hover:bg-black/5 rounded-xl text-[14px] font-semibold text-black transition-colors">Documentos Españoles para Cuba</a>
                     <a href="/visados-cuba-espana" onClick={() => setIsMobileOpen(false)} className="px-4 py-2 hover:bg-black/5 rounded-xl text-[14px] font-semibold text-black transition-colors">Visados desde Cuba</a>
                     <a href="/arraigo-social-cubanos-espana" onClick={() => setIsMobileOpen(false)} className="px-4 py-2 hover:bg-black/5 rounded-xl text-[14px] font-semibold text-black transition-colors">Arraigo Social y Residencia</a>
                     <a href="/nacionalidad-espanola-cubanos" onClick={() => setIsMobileOpen(false)} className="px-4 py-2 hover:bg-black/5 rounded-xl text-[14px] font-semibold text-black transition-colors">Nacionalidad Española</a>
                     <a href="/reagrupacion-familiar-cubanos-espana" onClick={() => setIsMobileOpen(false)} className="px-4 py-2 hover:bg-black/5 rounded-xl text-[14px] font-semibold text-black transition-colors">Reagrupación Familiar</a>
-                    <a href="/servicios" onClick={() => setIsMobileOpen(false)} className="px-4 py-2 hover:bg-black/5 rounded-xl text-[14px] font-bold text-black transition-colors flex items-center gap-2">Todos los servicios <span className="opacity-50">→</span></a>
+                    <a href="/tramitacion-consular-cuba" onClick={() => setIsMobileOpen(false)} className="px-4 py-2 hover:bg-black/5 rounded-xl text-[14px] font-semibold text-black transition-colors">Tramitación Consular en Cuba</a>
+                    <a href="/precios" onClick={() => setIsMobileOpen(false)} className="px-4 py-2 hover:bg-black/5 rounded-xl text-[14px] font-bold text-black transition-colors flex items-center gap-2">Todos los servicios y precios <span className="opacity-50">→</span></a>
                   </div>
                 </div>
 

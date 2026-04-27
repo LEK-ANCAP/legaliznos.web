@@ -40,12 +40,15 @@ export function Footer() {
           <div className="flex flex-col gap-5">
             <h4 className="text-[13px] font-bold text-white/40 uppercase tracking-widest">Servicios</h4>
             <div className="flex flex-col gap-3.5 text-[15px] font-medium text-white/80">
-              <a href="/legalizacion-documentos-cubanos" className="hover:text-white hover:translate-x-1 transition-all">Legalización documentos</a>
-              <a href="/visados-cuba-espana" className="hover:text-white hover:translate-x-1 transition-all">Visados</a>
-              <a href="/arraigo-social-cubanos-espana" className="hover:text-white hover:translate-x-1 transition-all">Arraigo / Residencia</a>
-              <a href="/nacionalidad-espanola-cubanos" className="hover:text-white hover:translate-x-1 transition-all">Nacionalidad</a>
+              <a href="/legalizacion-documentos-cubanos" className="hover:text-white hover:translate-x-1 transition-all">Legalización docs</a>
+              <a href="/legalizacion-expres" className="hover:text-white hover:translate-x-1 transition-all">Legalización exprés</a>
+              <a href="/legalizacion-documentos-espanoles-cuba" className="hover:text-white hover:translate-x-1 transition-all">Docs españoles → Cuba</a>
+              <a href="/visados-cuba-espana" className="hover:text-white hover:translate-x-1 transition-all">Visados desde Cuba</a>
+              <a href="/arraigo-social-cubanos-espana" className="hover:text-white hover:translate-x-1 transition-all">Arraigo y residencia</a>
+              <a href="/nacionalidad-espanola-cubanos" className="hover:text-white hover:translate-x-1 transition-all">Nacionalidad española</a>
               <a href="/reagrupacion-familiar-cubanos-espana" className="hover:text-white hover:translate-x-1 transition-all">Reagrupación familiar</a>
-              <a href="/servicios" className="hover:text-white hover:translate-x-1 transition-all font-bold mt-2">Todos los servicios →</a>
+              <a href="/tramitacion-consular-cuba" className="hover:text-white hover:translate-x-1 transition-all">Tramitación consular</a>
+              <a href="/precios" className="hover:text-white hover:translate-x-1 transition-all font-bold mt-2">Todos los servicios →</a>
             </div>
           </div>
 

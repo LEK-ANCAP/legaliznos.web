@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { ChevronRight, Check, X, MessageCircle, AlertCircle, CreditCard } from "lucide-react";
+import { ChevronRight, Check, X, MessageCircle, CreditCard } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Precios de Legalización de Documentos Cubanos y Trámites Migratorios | LegalizaNos",
@@ -129,7 +129,7 @@ export default function PreciosPage() {
 
         {/* 3. EXTRANJERÍA */}
         <section className="mb-24">
-          <h2 className="text-[2rem] font-bold text-black mb-8 text-center md:text-left">Trámites de extranjería y nacionalidad</h2>
+          <h2 className="text-[2rem] font-bold text-black mb-8 text-center md:text-left">Extranjería, nacionalidad y otros trámites</h2>
           <div className="bg-white border border-black/10 rounded-[32px] overflow-hidden shadow-sm">
             <div className="overflow-x-auto">
               <table className="w-full text-left border-collapse min-w-[800px]">
@@ -177,6 +177,24 @@ export default function PreciosPage() {
                     <td className="py-5 px-6 font-bold text-[#E63946]">Consultar</td>
                     <td className="py-5 px-6 text-black/60">Variable</td>
                     <td className="py-5 px-6 text-[14px]">Cada caso es diferente — evaluación gratuita</td>
+                  </tr>
+                  <tr className="border-b border-black/5 hover:bg-black/5 transition-colors">
+                    <td className="py-5 px-6 font-bold text-black">Documentos Españoles para Cuba</td>
+                    <td className="py-5 px-6 font-bold">Desde 95€</td>
+                    <td className="py-5 px-6 text-black/60">2-4 semanas</td>
+                    <td className="py-5 px-6 text-[14px]">Mº Justicia + MAEC + Consulado Cuba</td>
+                  </tr>
+                  <tr className="border-b border-black/5 hover:bg-black/5 transition-colors">
+                    <td className="py-5 px-6 font-bold text-black">Tramitación Consular en Cuba</td>
+                    <td className="py-5 px-6 font-bold text-[#E63946]">Consultar</td>
+                    <td className="py-5 px-6 text-black/60">Variable</td>
+                    <td className="py-5 px-6 text-[14px]">Gestiones presenciales en Cuba a medida</td>
+                  </tr>
+                  <tr className="border-b border-black/5 hover:bg-black/5 transition-colors">
+                    <td className="py-5 px-6 font-bold text-black">Legalización Exprés</td>
+                    <td className="py-5 px-6 font-bold">Desde 350€</td>
+                    <td className="py-5 px-6 text-black/60">~1 mes</td>
+                    <td className="py-5 px-6 text-[14px]">Gestión prioritaria MINJUS + Consulado</td>
                   </tr>
                   <tr className="hover:bg-black/5 transition-colors">
                     <td className="py-5 px-6 font-bold text-black">Regularización extraordinaria 2026</td>
