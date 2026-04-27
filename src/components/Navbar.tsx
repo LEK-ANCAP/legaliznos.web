@@ -177,9 +177,9 @@ export function Navbar() {
                       </Dropdown.Menu>
                     </Dropdown.Popover>
                   </Dropdown>
-                  <a href="/sobre-nosotros" className="hover:text-black/50 transition-colors">Sobre Nosotros</a>
                   <a href="/precios" className="hover:text-black/50 transition-colors">Precios</a>
                   <a href="/blog" className="hover:text-black/50 transition-colors">Blog</a>
+                  <a href="/sobre-nosotros" className="hover:text-black/50 transition-colors">Nosotros</a>
                 </div>
                     {/* CTA */}
                     <div className="pr-1">
@@ -286,9 +286,9 @@ export function Navbar() {
 
                 <div className="h-[1px] bg-black/5 mx-4 my-2" />
                 
-                <a href="/sobre-nosotros" onClick={() => setIsMobileOpen(false)} className="px-4 py-3 hover:bg-black/5 rounded-2xl text-[15px] font-semibold text-black transition-colors">Sobre Nosotros</a>
                 <a href="/precios" onClick={() => setIsMobileOpen(false)} className="px-4 py-3 hover:bg-black/5 rounded-2xl text-[15px] font-semibold text-black transition-colors">Precios</a>
                 <a href="/blog" onClick={() => setIsMobileOpen(false)} className="px-4 py-3 hover:bg-black/5 rounded-2xl text-[15px] font-semibold text-black transition-colors">Blog</a>
+                <a href="/sobre-nosotros" onClick={() => setIsMobileOpen(false)} className="px-4 py-3 hover:bg-black/5 rounded-2xl text-[15px] font-semibold text-black transition-colors">Nosotros</a>
 
               </div>
               <div className="p-2 pt-1 mt-1 border-t border-black/5">
