@@ -99,21 +99,23 @@ export function Navbar() {
             className="bg-white/70 backdrop-blur-2xl border-[1.5px] border-black/10 shadow-[0_8px_30px_rgb(0,0,0,0.06),0_2px_10px_rgb(0,0,0,0.03)] rounded-full h-14 flex items-center justify-between p-1 pl-4 transition-colors relative"
           >
             {/* Left: Logo & Brand */}
-            <motion.div layout className="flex items-center gap-2.5 pr-2">
-              <div className="relative w-9 h-9 shrink-0">
-                <div className="relative w-full h-full overflow-hidden rounded-full">
-                  <Image 
-                    src={logoImg} 
-                    alt="Logo Legalizanos"
-                    fill 
-                    sizes="36px"
-                    className="object-cover"
-                  />
+            <motion.div layout className="pr-2">
+              <Link href="/" className="flex items-center gap-2.5 outline-none hover:opacity-80 transition-opacity">
+                <div className="relative w-9 h-9 shrink-0">
+                  <div className="relative w-full h-full overflow-hidden rounded-full">
+                    <Image 
+                      src={logoImg} 
+                      alt="Logo Legalizanos"
+                      fill 
+                      sizes="36px"
+                      className="object-cover"
+                    />
+                  </div>
                 </div>
-              </div>
-              <motion.span layout className="font-semibold text-sm tracking-tight pr-2">
-                Legalizanos
-              </motion.span>
+                <motion.span layout className="font-semibold text-sm tracking-tight pr-2">
+                  Legalizanos
+                </motion.span>
+              </Link>
             </motion.div>
 
           <AnimatePresence initial={false}>

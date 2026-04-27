@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import logoImg from "@/images/Logo Legalizate.png";
 import { Mail, Phone, MapPin, CreditCard } from "lucide-react";
 
@@ -10,18 +11,20 @@ export function Footer() {
           
           {/* Col 1: Brand */}
           <div className="flex flex-col gap-6 lg:pr-6">
-            <div className="flex items-center gap-3">
-              <div className="relative w-8 h-8 rounded-full overflow-hidden bg-white/10 flex items-center justify-center">
+            <Link href="/" className="flex items-center gap-3 w-fit hover:opacity-80 transition-opacity outline-none">
+              <div className="relative w-9 h-9 shrink-0">
+                <div className="relative w-full h-full overflow-hidden rounded-full bg-white">
                   <Image 
-                  src={logoImg} 
-                  alt="Logo Legalizanos"
-                  fill 
-                  sizes="32px"
-                  className="object-cover invert brightness-0 p-1"
+                    src={logoImg} 
+                    alt="Logo Legalizanos"
+                    fill 
+                    sizes="36px"
+                    className="object-cover"
                   />
+                </div>
               </div>
               <span className="font-bold tracking-tight text-white text-xl">Legalizanos</span>
-            </div>
+            </Link>
             <p className="text-[15px] text-white/60 font-medium leading-relaxed">
               Asesoría migratoria especializada para cubanos en España. Sin sorpresas ni letras pequeñas.
             </p>
