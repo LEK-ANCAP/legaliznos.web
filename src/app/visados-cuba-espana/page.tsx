@@ -12,7 +12,7 @@ export const metadata = {
   title: "Visados para España desde Cuba — Trabajo, Estudios, Familia | LegalizaNos",
   description: "Gestionamos tu visado para España desde Cuba. Trabajo, estudios, búsqueda de empleo y reunificación familiar. Preparamos documentación y coordinamos con el Consulado en La Habana.",
   alternates: {
-    canonical: "https://legalizanos.es/visados-cuba-espana",
+    canonical: "https://legalizanos.com/visados-cuba-espana",
   },
 };
 

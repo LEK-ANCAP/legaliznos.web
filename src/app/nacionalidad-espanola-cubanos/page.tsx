@@ -12,14 +12,14 @@ export const metadata: Metadata = {
   title: "Nacionalidad Española para Cubanos por Residencia | LegalizaNos",
   description: "Tramitamos tu nacionalidad española por residencia. Expediente completo, documentos cubanos legalizados, CCSE, seguimiento hasta la jura. Para cubanos en Madrid, Valencia y toda España.",
   alternates: {
-    canonical: "https://legalizanos.es/nacionalidad-espanola-cubanos",
+    canonical: "https://legalizanos.com/nacionalidad-espanola-cubanos",
   },
   openGraph: {
     title: "Nacionalidad Española para Cubanos por Residencia",
     description: "Tramitamos tu nacionalidad española por residencia. Expediente completo, documentos cubanos legalizados, seguimiento hasta la jura.",
     type: "website",
     locale: "es_ES",
-    url: "https://legalizanos.es/nacionalidad-espanola-cubanos",
+    url: "https://legalizanos.com/nacionalidad-espanola-cubanos",
   },
 };
 

@@ -60,7 +60,7 @@ export function CtaYRelacionados() {
 
           <div className="text-center mt-10">
             <p className="text-[15px] font-medium text-black/50 leading-relaxed">
-              📞 También puedes llamar al <strong className="text-black whitespace-nowrap">600 000 000</strong> <br className="sm:hidden" />o escribir a <strong className="text-black">info@legalizanos.es</strong>
+              📞 También puedes llamar al <strong className="text-black whitespace-nowrap">600 000 000</strong> <br className="sm:hidden" />o escribir a <strong className="text-black">info@legalizanos.com</strong>
             </p>
           </div>
         </div>

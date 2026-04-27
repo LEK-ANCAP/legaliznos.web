@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Contacto | LegalizaNos",
   description: "Hablemos de tu caso. Primera evaluación gratuita y sin compromiso. Contáctanos por WhatsApp, teléfono o email.",
   alternates: {
-    canonical: "https://legalizanos.es/contacto",
+    canonical: "https://legalizanos.com/contacto",
   },
 };
 

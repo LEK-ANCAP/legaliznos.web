@@ -12,14 +12,14 @@ export const metadata: Metadata = {
   title: "Arraigo Social para Cubanos en España 2026 — Requisitos y Tramitación | LegalizaNos",
   description: "Tramitamos tu arraigo social en Madrid, Valencia y toda España. Nuevo reglamento 2026: ahora solo 2 años. Expediente completo, documentos cubanos legalizados, seguimiento WhatsApp.",
   alternates: {
-    canonical: "https://legalizanos.es/arraigo-social-cubanos-espana",
+    canonical: "https://legalizanos.com/arraigo-social-cubanos-espana",
   },
   openGraph: {
     title: "Arraigo Social para Cubanos en España 2026",
     description: "Tramitamos tu arraigo social en Madrid, Valencia y toda España. Nuevo reglamento 2026: ahora solo 2 años.",
     type: "website",
     locale: "es_ES",
-    url: "https://legalizanos.es/arraigo-social-cubanos-espana",
+    url: "https://legalizanos.com/arraigo-social-cubanos-espana",
   },
 };
 

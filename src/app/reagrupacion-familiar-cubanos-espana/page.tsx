@@ -12,14 +12,14 @@ export const metadata: Metadata = {
   title: "Reagrupación Familiar Cuba-España — Reúne a tu Familia | LegalizaNos",
   description: "Gestionamos la reagrupación familiar completa para cubanos. Expediente en España + visado en La Habana + seguimiento. Cónyuge, hijos, padres. Consulta gratuita.",
   alternates: {
-    canonical: "https://legalizanos.es/reagrupacion-familiar-cubanos-espana",
+    canonical: "https://legalizanos.com/reagrupacion-familiar-cubanos-espana",
   },
   openGraph: {
     title: "Reagrupación Familiar Cuba-España — Reúne a tu Familia",
     description: "Gestionamos la reagrupación familiar completa para cubanos. Expediente en España + visado en La Habana.",
     type: "website",
     locale: "es_ES",
-    url: "https://legalizanos.es/reagrupacion-familiar-cubanos-espana",
+    url: "https://legalizanos.com/reagrupacion-familiar-cubanos-espana",
   },
 };
 

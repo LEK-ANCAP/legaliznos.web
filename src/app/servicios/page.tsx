@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Todos los Servicios | LegalizaNos",
   description: "Especialistas en extranjería, nacionalidad y legalizaciones para cubanos en España. Conoce todos nuestros servicios.",
   alternates: {
-    canonical: "https://legalizanos.es/servicios",
+    canonical: "https://legalizanos.com/servicios",
   },
 };
 

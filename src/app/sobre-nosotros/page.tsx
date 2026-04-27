@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Sobre Nosotros | LegalizaNos",
   description: "Nacimos con un único propósito: eliminar la burocracia y las estafas que sufren los cubanos al emigrar a España. Conoce a nuestro equipo.",
   alternates: {
-    canonical: "https://legalizanos.es/sobre-nosotros",
+    canonical: "https://legalizanos.com/sobre-nosotros",
   },
 };
 
