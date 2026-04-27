@@ -54,7 +54,7 @@ export function Footer() {
             <h4 className="text-[13px] font-bold text-white/40 uppercase tracking-widest">Información</h4>
             <div className="flex flex-col gap-3.5 text-[15px] font-medium text-white/80">
               <a href="/sobre-nosotros" className="hover:text-white hover:translate-x-1 transition-all">Sobre Nosotros</a>
-              <a href="/#precios" className="hover:text-white hover:translate-x-1 transition-all">Precios</a>
+              <a href="/precios" className="hover:text-white hover:translate-x-1 transition-all">Precios</a>
               <a href="#faq" className="hover:text-white hover:translate-x-1 transition-all">FAQ</a>
               <a href="/blog" className="hover:text-white hover:translate-x-1 transition-all">Blog</a>
               <a href="/contacto" className="hover:text-white hover:translate-x-1 transition-all">Contacto</a>
@@ -92,8 +92,8 @@ export function Footer() {
           <p>© 2026 Legalizanos. Todos los derechos reservados.</p>
           <div className="flex gap-6">
             <a href="/aviso-legal" className="hover:text-white transition-colors">Aviso legal</a>
-            <a href="/privacidad" className="hover:text-white transition-colors">Privacidad</a>
-            <a href="/cookies" className="hover:text-white transition-colors">Cookies</a>
+            <a href="/politica-privacidad" className="hover:text-white transition-colors">Privacidad</a>
+            <a href="/politica-cookies" className="hover:text-white transition-colors">Cookies</a>
           </div>
         </div>
       </div>

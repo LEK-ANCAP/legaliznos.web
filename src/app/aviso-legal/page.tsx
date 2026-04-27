@@ -2,7 +2,6 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Aviso Legal | LegalizaNos",
-  description: "Aviso Legal y Condiciones Generales de Uso del sitio web LegalizaNos.",
   robots: { index: false, follow: true },
 };
 
@@ -18,51 +17,36 @@ export default function AvisoLegalPage() {
         <div className="flex flex-col gap-5 text-[17px] text-black/70 font-medium leading-relaxed [&>h2]:text-[22px] [&>h2]:font-bold [&>h2]:text-black [&>h2]:mt-8 [&>h2]:mb-2 [&>h3]:text-[19px] [&>h3]:font-bold [&>h3]:text-black [&>h3]:mt-6 [&>h3]:mb-2 [&>ul]:list-disc [&>ul]:pl-6 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>p]:m-0 [&>a]:text-black [&>a]:font-bold hover:[&>a]:underline">
           
           <p>
-            El presente Aviso Legal regula el acceso, navegación y uso del sitio web web <strong className="text-black">LegalizaNos</strong> (en adelante, "el Sitio Web").
+            En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, se informa:
           </p>
 
-          <h2>1. Datos Identificativos</h2>
-          <p>
-            En cumplimiento con el deber de información recogido en el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI-CE), se hace constar que el Sitio Web es operado bajo la marca comercial <strong className="text-black">LegalizaNos</strong> (en adelante, "el Titular").
-          </p>
           <ul>
-            <li><strong>Email de contacto:</strong> info@legalizanos.com</li>
+            <li><strong>Titular:</strong> LegalizaNos</li>
+            <li><strong>Email:</strong> info@legalizanos.com</li>
+            <li><strong>Web:</strong> https://legalizanos.com</li>
+            <li><strong>Actividad:</strong> Asesoría migratoria y gestión de trámites administrativos.</li>
           </ul>
 
-          <h2>2. Usuarios</h2>
           <p>
-            El acceso y/o uso del Sitio Web atribuye la condición de USUARIO, que acepta, desde dicho acceso y/o uso, las Condiciones Generales de Uso aquí reflejadas. Las citadas Condiciones serán de aplicación independientemente de las Condiciones Generales de Contratación que en su caso resulten de obligado cumplimiento.
+            El acceso y uso de este sitio web atribuye la condición de usuario e implica la aceptación plena de todas las condiciones incluidas en este Aviso Legal, la Política de Privacidad y la Política de Cookies.
+          </p>
+          <p>
+            LegalizaNos se reserva el derecho de modificar cualquier tipo de información que pudiera aparecer en el sitio web sin obligación de avisar previamente.
           </p>
 
-          <h2>3. Uso del Portal</h2>
+          <h2>Propiedad intelectual</h2>
           <p>
-            El Sitio Web proporciona el acceso a multitud de informaciones, servicios o datos (en adelante, "los contenidos") en Internet pertenecientes al Titular a los que el USUARIO pueda tener acceso. El USUARIO asume la responsabilidad del uso del portal.
-          </p>
-          <p>
-            Toda la información y material publicado en esta web tiene carácter meramente informativo, orientativo y no constituye en ningún caso asesoramiento jurídico, legal o profesional vinculante. El Titular no se hace responsable de las decisiones tomadas a partir de la información suministrada en la web.
+            Todos los contenidos del sitio web (textos, fotografías, gráficos, imágenes, iconos, código fuente) son propiedad de LegalizaNos o de sus legítimos propietarios, quedando prohibida su reproducción total o parcial sin autorización expresa.
           </p>
 
-          <h2>4. Propiedad Intelectual e Industrial</h2>
+          <h2>Exclusión de garantías y responsabilidad</h2>
           <p>
-            El Titular por sí o como cesionario, es titular de todos los derechos de propiedad intelectual e industrial de su página web, así como de los elementos contenidos en la misma (a título enunciativo, imágenes, sonido, audio, vídeo, software o textos; marcas o logotipos, combinaciones de colores, estructura y diseño, etc.).
-          </p>
-          <p>
-            En virtud de lo dispuesto en los artículos 8 y 32.1, párrafo segundo, de la Ley de Propiedad Intelectual, quedan expresamente prohibidas la reproducción, la distribución y la comunicación pública, incluida su modalidad de puesta a disposición, de la totalidad o parte de los contenidos de esta página web, con fines comerciales, en cualquier soporte y por cualquier medio técnico, sin la autorización del Titular.
+            LegalizaNos no se hace responsable de los daños o perjuicios que pudieran derivarse del uso de la información publicada en esta web. Los plazos y datos sobre trámites administrativos son orientativos y pueden variar según la legislación vigente y los organismos competentes.
           </p>
 
-          <h2>5. Exclusión de Garantías y Responsabilidad</h2>
+          <h2>Legislación aplicable</h2>
           <p>
-            El Titular no se hace responsable, en ningún caso, de los daños y perjuicios de cualquier naturaleza que pudieran ocasionar, a título enunciativo: errores u omisiones en los contenidos, falta de disponibilidad del portal o la transmisión de virus o programas maliciosos o lesivos en los contenidos, a pesar de haber adoptado todas las medidas tecnológicas necesarias para evitarlo.
-          </p>
-
-          <h2>6. Modificaciones</h2>
-          <p>
-            El Titular se reserva el derecho de efectuar sin previo aviso las modificaciones que considere oportunas en su portal, pudiendo cambiar, suprimir o añadir tanto los contenidos y servicios que se presten a través de la misma como la forma en la que éstos aparezcan presentados o localizados en su portal.
-          </p>
-
-          <h2>7. Legislación Aplicable y Jurisdicción</h2>
-          <p>
-            La relación entre el Titular y el USUARIO se regirá por la normativa española vigente y cualquier controversia se someterá a los Juzgados y tribunales de la ciudad de Madrid (España).
+            Las relaciones establecidas entre el titular de la web y el usuario se regirán por la normativa española vigente.
           </p>
 
           <p className="text-sm mt-12 text-black/40">

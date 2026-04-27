@@ -19,12 +19,36 @@ export function CookieBanner() {
       }, 10000);
       
       return () => clearTimeout(timer);
+    } else if (cookieConsent === "accepted") {
+      // Si ya aceptó, cargamos GA al montar
+      if (typeof window !== 'undefined') {
+        // @ts-ignore
+        window.dataLayer = window.dataLayer || [];
+        // @ts-ignore
+        function gtag(){dataLayer.push(arguments);}
+        // @ts-ignore
+        gtag('js', new Date());
+        // @ts-ignore
+        gtag('config', 'G-XXXXXXXXXX'); // Reemplazar con ID real
+      }
     }
   }, []);
 
   const handleAccept = () => {
     localStorage.setItem("legalizanos_cookie_consent", "accepted");
     setIsVisible(false);
+    
+    // Aquí cargarías Google Analytics u otras herramientas
+    if (typeof window !== 'undefined') {
+      // @ts-ignore
+      window.dataLayer = window.dataLayer || [];
+      // @ts-ignore
+      function gtag(){dataLayer.push(arguments);}
+      // @ts-ignore
+      gtag('js', new Date());
+      // @ts-ignore
+      gtag('config', 'G-XXXXXXXXXX'); // Reemplazar con ID real
+    }
   };
 
   const handleReject = () => {
@@ -57,7 +81,7 @@ export function CookieBanner() {
           
           <p className="text-[14px] text-black/60 font-medium leading-relaxed mb-5">
             Utilizamos cookies propias y de terceros para mejorar tu experiencia de usuario y analizar el tráfico de la web. Puedes aceptar todas las cookies o configurarlas. 
-            <Link href="/cookies" className="text-black underline ml-1 font-bold">Ver política</Link>
+            <Link href="/politica-cookies" className="text-black underline ml-1 font-bold">Ver política</Link>
           </p>
           
           <div className="flex items-center gap-2">
