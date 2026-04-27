@@ -23,7 +23,7 @@ export default function AvisoLegalPage() {
 
           <h2>1. Datos Identificativos</h2>
           <p>
-            En cumplimiento con el deber de información recogido en el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI-CE), se hace constar que el Sitio Web es operado bajo la marca comercial <strong className="text-black">LegalizaNos</strong>, proyecto integrado en el grupo <strong className="text-black">Gestoría HOL</strong> (en adelante, "el Titular").
+            En cumplimiento con el deber de información recogido en el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI-CE), se hace constar que el Sitio Web es operado bajo la marca comercial <strong className="text-black">LegalizaNos</strong> (en adelante, "el Titular").
           </p>
           <ul>
             <li><strong>Email de contacto:</strong> info@legalizanos.com</li>

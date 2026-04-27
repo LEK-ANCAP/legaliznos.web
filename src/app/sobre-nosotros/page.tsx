@@ -41,7 +41,7 @@ export default function SobreNosotrosPage() {
           <h2 className="text-[24px] font-bold text-black mb-6">Nuestra Historia</h2>
           <div className="flex flex-col gap-6 text-[16px] text-black/70 leading-relaxed font-medium">
             <p>
-              LegalizaNos nace como una iniciativa especializada dentro del grupo <strong className="text-black">Gestoría HOL</strong>, un despacho de referencia en España. Al atender a cientos de clientes de todas las nacionalidades, nos dimos cuenta de un patrón doloroso: la comunidad cubana se enfrentaba a obstáculos únicos.
+              LegalizaNos nace como un despacho especializado de referencia en España. Al atender a cientos de clientes de todas las nacionalidades, nos dimos cuenta de un patrón doloroso: la comunidad cubana se enfrentaba a obstáculos únicos.
             </p>
             <p>
               Documentos que caducan por falta de citas, procesos consulares que parecen imposibles en La Habana, y lamentablemente, una red de "tramitadores" informales que cobran fortunas sin garantías legales.

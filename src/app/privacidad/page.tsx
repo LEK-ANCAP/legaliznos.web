@@ -23,7 +23,7 @@ export default function PrivacidadPage() {
 
           <h2>1. Responsable del Tratamiento</h2>
           <ul>
-            <li><strong>Identidad:</strong> LegalizaNos (Gestoría HOL)</li>
+            <li><strong>Identidad:</strong> LegalizaNos</li>
             <li><strong>Correo electrónico:</strong> info@legalizanos.com</li>
           </ul>
 
