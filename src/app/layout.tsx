@@ -14,14 +14,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://legalizat.es/"),
-  title: "LegalizaT — Asesoría Migratoria para Cubanos en España",
+  metadataBase: new URL("https://legalizanos.com/"),
+  title: "Legalizanos — Asesoría Migratoria para Cubanos en España",
   description: "Legalizamos tus documentos cubanos, tramitamos tu residencia y te acompañamos hasta que tengas tus papeles en regla. Madrid, Valencia y toda España. Consulta gratuita por WhatsApp.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "LegalizaT — Tus trámites migratorios resueltos",
+    title: "Legalizanos — Tus trámites migratorios resueltos",
     description: "Especialistas en legalización de documentos cubanos, arraigo social, nacionalidad española, visados y reagrupación familiar. 100% online.",
     type: "website",
     url: "/",
@@ -38,6 +38,7 @@ export default function RootLayout({
     <html
       lang="es"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-background text-foreground light">
         <SmoothScroll>

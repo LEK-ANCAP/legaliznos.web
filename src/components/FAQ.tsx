@@ -86,7 +86,7 @@ export function FAQ() {
                 <button
                   type="button"
                   onClick={() => toggleFAQ(index)}
-                  className="w-full text-left px-6 py-6 md:px-8 md:py-8 flex justify-between items-center gap-6 focus:outline-none"
+                  className="w-full text-left px-6 py-6 md:px-8 md:py-8 flex justify-between items-center gap-6 focus:outline-none cursor-pointer"
                   aria-expanded={isOpen}
                 >
                   <h3 className="text-[17px] md:text-[19px] font-bold text-black tracking-tight leading-snug pr-4">

@@ -7,7 +7,7 @@ const testimonials = [
     location: "Valencia"
   },
   {
-    content: "Había perdido dinero con otra gestoría que dejó de contestar. Con LegalizaT todo fue claro desde el primer mensaje. Me dijeron qué necesitaba, cuánto costaba, y cumplieron el plazo.",
+    content: "Había perdido dinero con otra gestoría que dejó de contestar. Con Legalizanos todo fue claro desde el primer mensaje. Me dijeron qué necesitaba, cuánto costaba, y cumplieron el plazo.",
     author: "Carlos M.",
     location: "Madrid"
   },

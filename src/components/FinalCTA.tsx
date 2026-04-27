@@ -50,13 +50,13 @@ export function FinalCTA() {
                   <span className="block text-[15px] font-bold text-black group-hover:underline">+34 600 000 000</span>
                 </div>
               </a>
-              <a href="mailto:hola@legalizat.es" className="flex items-center gap-3 group">
+              <a href="mailto:info@legalizanos.com" className="flex items-center gap-3 group">
                 <div className="w-10 h-10 rounded-full bg-black/5 flex items-center justify-center group-hover:bg-black group-hover:text-white transition-colors">
                   <Mail className="w-4 h-4" />
                 </div>
                 <div>
                   <span className="block text-[12px] font-bold text-black/50 uppercase tracking-widest">Escríbenos</span>
-                  <span className="block text-[15px] font-bold text-black group-hover:underline">hola@legalizat.es</span>
+                  <span className="block text-[15px] font-bold text-black group-hover:underline">info@legalizanos.com</span>
                 </div>
               </a>
             </div>

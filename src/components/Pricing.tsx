@@ -58,7 +58,7 @@ export function Pricing() {
           </div>
           <h2 className="text-[2.5rem] md:text-[3.5rem] font-bold tracking-[-0.03em] text-black leading-[1.1] mb-6">
             Precios reales. <br className="hidden md:block"/>
-            <span className="text-black/40">Sin la frase &apos;depende del caso&apos;.</span>
+            <span className="text-black/40">Sin sorpresas de última hora.</span>
           </h2>
           <p className="text-[17px] md:text-[19px] font-medium text-black/60 leading-relaxed max-w-2xl">
             Todos los precios son cerrados. Te decimos el total exacto antes de empezar para que no haya sorpresas. Además, puedes pagar en <strong className="text-black">2 cuotas sin intereses</strong>.
@@ -182,7 +182,7 @@ export function Pricing() {
                 <div>
                   <p className="text-[15px] text-white/70 leading-relaxed font-medium">
                     <strong className="text-white block mb-1.5 text-[17px]">Cero Costes Ocultos</strong> 
-                    Nuestros honorarios de <em>LegalizaT</em> ya incluyen todas las gestiones locales, honorarios y los envíos físicos a España.
+                    Nuestros honorarios de <em>Legalizanos</em> ya incluyen todas las gestiones locales, honorarios y los envíos físicos a España.
                   </p>
                 </div>
               </div>

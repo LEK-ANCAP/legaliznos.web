@@ -14,13 +14,13 @@ export function Footer() {
               <div className="relative w-8 h-8 rounded-full overflow-hidden bg-white/10 flex items-center justify-center">
                   <Image 
                   src={logoImg} 
-                  alt="Logo LegalizaT"
+                  alt="Logo Legalizanos"
                   fill 
                   sizes="32px"
                   className="object-cover invert brightness-0 p-1"
                   />
               </div>
-              <span className="font-bold tracking-tight text-white text-xl">LegalizaT</span>
+              <span className="font-bold tracking-tight text-white text-xl">Legalizanos</span>
             </div>
             <p className="text-[15px] text-white/60 font-medium leading-relaxed">
               Asesoría migratoria especializada para cubanos en España. Sin sorpresas ni letras pequeñas.
@@ -37,12 +37,12 @@ export function Footer() {
           <div className="flex flex-col gap-5">
             <h4 className="text-[13px] font-bold text-white/40 uppercase tracking-widest">Servicios</h4>
             <div className="flex flex-col gap-3.5 text-[15px] font-medium text-white/80">
-              <a href="#" className="hover:text-white hover:translate-x-1 transition-all">Legalización documentos</a>
-              <a href="#" className="hover:text-white hover:translate-x-1 transition-all">Visados</a>
-              <a href="#" className="hover:text-white hover:translate-x-1 transition-all">Arraigo / Residencia</a>
-              <a href="#" className="hover:text-white hover:translate-x-1 transition-all">Nacionalidad</a>
-              <a href="#" className="hover:text-white hover:translate-x-1 transition-all">Reagrupación familiar</a>
-              <a href="#" className="hover:text-white hover:translate-x-1 transition-all font-bold mt-2">Todos los servicios →</a>
+              <a href="/legalizacion-documentos-cubanos" className="hover:text-white hover:translate-x-1 transition-all">Legalización documentos</a>
+              <a href="/visados-cuba-espana" className="hover:text-white hover:translate-x-1 transition-all">Visados</a>
+              <a href="/arraigo-social-cubanos-espana" className="hover:text-white hover:translate-x-1 transition-all">Arraigo / Residencia</a>
+              <a href="/nacionalidad-espanola-cubanos" className="hover:text-white hover:translate-x-1 transition-all">Nacionalidad</a>
+              <a href="/reagrupacion-familiar-cubanos-espana" className="hover:text-white hover:translate-x-1 transition-all">Reagrupación familiar</a>
+              <a href="/servicios" className="hover:text-white hover:translate-x-1 transition-all font-bold mt-2">Todos los servicios →</a>
             </div>
           </div>
 
@@ -50,11 +50,11 @@ export function Footer() {
           <div className="flex flex-col gap-5">
             <h4 className="text-[13px] font-bold text-white/40 uppercase tracking-widest">Información</h4>
             <div className="flex flex-col gap-3.5 text-[15px] font-medium text-white/80">
-              <a href="#" className="hover:text-white hover:translate-x-1 transition-all">Sobre Nosotros</a>
-              <a href="#precios" className="hover:text-white hover:translate-x-1 transition-all">Precios</a>
+              <a href="/sobre-nosotros" className="hover:text-white hover:translate-x-1 transition-all">Sobre Nosotros</a>
+              <a href="/#precios" className="hover:text-white hover:translate-x-1 transition-all">Precios</a>
               <a href="#faq" className="hover:text-white hover:translate-x-1 transition-all">FAQ</a>
-              <a href="#" className="hover:text-white hover:translate-x-1 transition-all">Blog</a>
-              <a href="#contacto" className="hover:text-white hover:translate-x-1 transition-all">Contacto</a>
+              <a href="/blog" className="hover:text-white hover:translate-x-1 transition-all">Blog</a>
+              <a href="/contacto" className="hover:text-white hover:translate-x-1 transition-all">Contacto</a>
             </div>
           </div>
 
@@ -68,11 +68,11 @@ export function Footer() {
                 </div>
                 WhatsApp / Teléfono
               </a>
-              <a href="mailto:hola@legalizat.es" className="flex items-center gap-3 hover:text-white transition-colors group">
+              <a href="mailto:info@legalizanos.com" className="flex items-center gap-3 hover:text-white transition-colors group">
                 <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-white/20 transition-colors">
                   <Mail className="w-3.5 h-3.5 text-white/80" />
                 </div>
-                hola@legalizat.es
+                info@legalizanos.com
               </a>
               <div className="flex items-start gap-3 mt-2">
                 <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center shrink-0">
@@ -86,11 +86,11 @@ export function Footer() {
         </div>
         
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-6 text-[14px] text-white/40 font-medium tracking-wide">
-          <p>© 2026 LegalizaT. Todos los derechos reservados.</p>
+          <p>© 2026 Legalizanos. Todos los derechos reservados.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-white transition-colors">Aviso legal</a>
-            <a href="#" className="hover:text-white transition-colors">Privacidad</a>
-            <a href="#" className="hover:text-white transition-colors">Cookies</a>
+            <a href="/aviso-legal" className="hover:text-white transition-colors">Aviso legal</a>
+            <a href="/privacidad" className="hover:text-white transition-colors">Privacidad</a>
+            <a href="/cookies" className="hover:text-white transition-colors">Cookies</a>
           </div>
         </div>
       </div>
