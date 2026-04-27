@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, ChevronDown, FileSignature, Plane, Users, BookOpen } from "lucide-react";
+import { ArrowRight, ChevronDown, FileSignature, Plane, Users, BookOpen, HeartHandshake } from "lucide-react";
 import { Accordion, Button, Chip } from "@heroui/react";
 import Link from "next/link";
 
@@ -10,7 +10,7 @@ const servicesList = [
     icon: FileSignature,
     badge: "Legalizaciones",
     visible: "Necesito documentos de Cuba legalizados para España",
-    expanded: "Obtenemos, legalizamos y te enviamos cualquier documento desde Cuba.",
+    expanded: "Antecedentes penales, nacimiento, matrimonio, soltería, divorcio, títulos académicos y más. Nuestro equipo en La Habana se encarga de todo: obtención en registro, legalización MINJUS y Consulado. Tú recibes el documento listo en casa.",
     docTypes: ["Registrales", "MINJUS", "MINSAP", "Docentes", "INASS", "Notariales"],
     dato: "Desde 250€",
     plazo: "2-3 meses",
@@ -22,7 +22,7 @@ const servicesList = [
     icon: Plane,
     badge: "Visados",
     visible: "Quiero traer a alguien de Cuba o venir yo a España",
-    expanded: "Visados de trabajo, estudios, búsqueda de empleo y reunificación familiar. Preparamos la documentación y coordinamos con el Consulado en La Habana.",
+    expanded: "Preparamos toda la documentación, legalizamos lo que haga falta y coordinamos la cita en el Consulado de La Habana. Trabajo, estudios, búsqueda de empleo o reunificación. Te decimos qué necesitas antes de gastar un euro.",
     dato: "Consulta gratuita",
     cta: "Evaluar mi caso gratis",
     href: "/visados-cuba-espana",
@@ -32,7 +32,7 @@ const servicesList = [
     icon: Users,
     badge: "Residencia",
     visible: "Estoy en España sin papeles y quiero regularizarme",
-    expanded: "Arraigo social, laboral o familiar. Preparamos tu expediente completo, revisamos cada documento y presentamos ante Extranjería. Te acompañamos hasta la resolución.",
+    expanded: "Arraigo social, laboral o familiar. Revisamos si cumples, preparamos el expediente con tus documentos cubanos legalizados y presentamos ante Extranjería. Si no cumples todavía, te orientamos sobre qué te falta.",
     dato: "Desde 400€",
     plazo: "3-6 meses",
     cta: "Ver requisitos",
@@ -43,11 +43,22 @@ const servicesList = [
     icon: BookOpen,
     badge: "Nacionalidad",
     visible: "Llevo años aquí y quiero el pasaporte español",
-    expanded: "Expediente de nacionalidad por residencia. Desde la documentación hasta la jura. Incluye gestión de documentos cubanos legalizados si los necesitas.",
+    expanded: "Expediente completo de nacionalidad por residencia: documentación, antecedentes cubanos legalizados, orientación para el CCSE y seguimiento hasta la jura. Te decimos por qué vía puedes solicitar y cuánto va a tardar realmente.",
     dato: "Desde 500€",
     plazo: "12-18 meses media",
     cta: "Evaluar si cumplo requisitos",
     href: "/nacionalidad-espanola-cubanos",
+  },
+  {
+    id: "reagrupacion",
+    icon: HeartHandshake,
+    badge: "Reagrupación",
+    visible: "Quiero que mi familia venga a vivir conmigo",
+    expanded: "Gestionamos las dos fases: tu expediente en Extranjería aquí y los documentos de tu familiar en Cuba. Cónyuge, hijos, padres. Desde el primer papel hasta que tu familiar aterrice con su visado.",
+    dato: "Desde 400€",
+    plazo: "4-8 meses",
+    cta: "Ver requisitos",
+    href: "/reagrupacion-familiar-cubanos-espana",
   }
 ];
 
