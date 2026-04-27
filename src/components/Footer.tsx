@@ -7,7 +7,7 @@ export function Footer() {
   return (
     <footer className="bg-black py-16 md:py-24 border-t border-black">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-12 lg:gap-8 mb-16">
           
           {/* Col 1: Brand */}
           <div className="flex flex-col gap-6 lg:pr-6">
@@ -58,6 +58,16 @@ export function Footer() {
               <a href="#faq" className="hover:text-white hover:translate-x-1 transition-all">FAQ</a>
               <a href="/blog" className="hover:text-white hover:translate-x-1 transition-all">Blog</a>
               <a href="/contacto" className="hover:text-white hover:translate-x-1 transition-all">Contacto</a>
+            </div>
+          </div>
+
+          {/* Col 3.5: Áreas de Servicio */}
+          <div className="flex flex-col gap-5">
+            <h4 className="text-[13px] font-bold text-white/40 uppercase tracking-widest">Áreas de servicio</h4>
+            <div className="flex flex-col gap-3.5 text-[15px] font-medium text-white/80">
+              <a href="/legalizacion-documentos-madrid" className="hover:text-white hover:translate-x-1 transition-all">Madrid</a>
+              <a href="/legalizacion-documentos-valencia" className="hover:text-white hover:translate-x-1 transition-all">Valencia</a>
+              <a href="/contacto" className="hover:text-white hover:translate-x-1 transition-all">Toda España</a>
             </div>
           </div>
 

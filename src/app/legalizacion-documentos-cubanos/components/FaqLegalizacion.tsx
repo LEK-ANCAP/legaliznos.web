@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     question: "¿Necesito ir a Cuba para legalizar mis documentos?",
-    answer: "No. Solo necesitamos una foto clara de tu carnet de identidad cubano. Nuestro equipo en La Habana gestiona todo lo presencial: registro civil, MINJUS, y Consulado. Tú te quedas en España."
+    answer: <>No. Solo necesitamos una foto clara de tu carnet de identidad cubano. Nuestro equipo en La Habana gestiona todo lo presencial: registro civil, MINJUS, y Consulado. Te enviamos tus documentos legalizados a tu domicilio en <a href="/legalizacion-documentos-madrid" className="font-bold underline hover:text-black">Madrid</a>, <a href="/legalizacion-documentos-valencia" className="font-bold underline hover:text-black">Valencia</a> o cualquier punto de España.</>
   },
   {
     question: "¿Cuánto tiempo tienen de validez los documentos legalizados?",
@@ -47,7 +47,7 @@ export function FaqLegalizacion() {
       "name": faq.question,
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": faq.answer
+        "text": typeof faq.answer === 'string' ? faq.answer : "No. Solo necesitamos una foto clara de tu carnet de identidad cubano. Nuestro equipo en La Habana gestiona todo lo presencial: registro civil, MINJUS, y Consulado. Te enviamos tus documentos legalizados a tu domicilio en Madrid, Valencia o cualquier punto de España."
       }
     }))
   };

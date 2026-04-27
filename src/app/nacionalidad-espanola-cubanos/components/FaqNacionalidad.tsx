@@ -16,6 +16,11 @@ const faqs = [
   {
     question: "¿Si me deniegan la nacionalidad puedo volver a pedirla?",
     answer: "Sí, absolutamente. Puedes presentar una nueva solicitud de nacionalidad cuando hayas corregido el motivo exacto de la denegación. Los motivos más comunes suelen ser: presentación de documentación caducada o sin legalizar, ausencias de España superiores a las permitidas por ley, o tener antecedentes penales no cancelados. Analizamos tu caso en detalle desde el principio precisamente para evitar pasar por una denegación."
+  },
+  {
+    question: "¿Dónde se realiza la jura de nacionalidad?",
+    answer: "La jura se realiza en el Registro Civil de tu ciudad o ante notario. Si estás en Madrid o Valencia, te orientamos sobre cuál te corresponde y cómo sacar la cita rápidamente.",
+    answerNode: <>La jura se realiza en el Registro Civil de tu ciudad o ante notario. Si estás en <a href="/legalizacion-documentos-madrid" className="font-bold underline hover:text-black">Madrid</a> o <a href="/legalizacion-documentos-valencia" className="font-bold underline hover:text-black">Valencia</a>, te orientamos sobre cuál te corresponde y cómo sacar la cita rápidamente.</>
   }
 ];
 
@@ -78,7 +83,7 @@ export function FaqNacionalidad() {
                   <Accordion.Body>
                     <div className="pb-6">
                       <p className="text-[16px] text-black/70 leading-relaxed font-medium">
-                        {faq.answer}
+                        {faq.answerNode || faq.answer}
                       </p>
                     </div>
                   </Accordion.Body>

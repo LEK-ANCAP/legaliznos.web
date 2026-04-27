@@ -6,7 +6,8 @@ import Script from "next/script";
 const faqs = [
   {
     question: "¿Cuánto tarda el arraigo social en resolverse?",
-    answer: "Depende de la provincia. En Madrid puede tardar de 4 a 8 meses, mientras que en Valencia suele ser de 3 a 6 meses. El plazo legal máximo que tiene Extranjería es de 3 meses, pero en la práctica suele tardar más. Si pasan 3 meses sin respuesta, opera el silencio administrativo positivo (técnicamente está aprobado). Te avisamos y guiamos en cada fase del proceso."
+    answer: "Depende de la provincia. En Madrid puede tardar de 4 a 8 meses, mientras que en Valencia suele ser de 3 a 6 meses. El plazo legal máximo que tiene Extranjería es de 3 meses, pero en la práctica suele tardar más. Si pasan 3 meses sin respuesta, opera el silencio administrativo positivo (técnicamente está aprobado). Te avisamos y guiamos en cada fase del proceso.",
+    answerNode: <>Depende de la provincia. Los plazos de arraigo varían: en <a href="/legalizacion-documentos-madrid" className="font-bold underline hover:text-black">Madrid</a> 4-8 meses, en <a href="/legalizacion-documentos-valencia" className="font-bold underline hover:text-black">Valencia</a> 3-5 meses. El plazo legal máximo que tiene Extranjería es de 3 meses, pero en la práctica suele tardar más. Si pasan 3 meses sin respuesta, opera el silencio administrativo positivo (técnicamente está aprobado). Te avisamos y guiamos en cada fase del proceso.</>
   },
   {
     question: "¿Puedo trabajar mientras espero la resolución del arraigo?",
@@ -81,7 +82,7 @@ export function FaqArraigo() {
                   <Accordion.Body>
                     <div className="pb-6">
                       <p className="text-[16px] text-black/70 leading-relaxed font-medium">
-                        {faq.answer}
+                        {faq.answerNode || faq.answer}
                       </p>
                     </div>
                   </Accordion.Body>

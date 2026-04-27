@@ -151,6 +151,12 @@ export function Services() {
           })}
         </Accordion>
 
+        <div className="mt-12 text-center border-t border-black/5 pt-8">
+          <p className="text-[15px] text-black/50 font-medium">
+            Estamos en <Link href="/legalizacion-documentos-madrid" className="font-bold text-black hover:underline">Madrid</Link> y <Link href="/legalizacion-documentos-valencia" className="font-bold text-black hover:underline">Valencia</Link> — pero trabajamos con cubanos en toda España.
+          </p>
+        </div>
+
       </div>
     </section>
   );
