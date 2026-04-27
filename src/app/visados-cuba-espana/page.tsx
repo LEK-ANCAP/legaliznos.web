@@ -1,5 +1,5 @@
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+
+
 import { FloatingContact } from "@/components/FloatingContact";
 import { HeroVisados } from "./components/HeroVisados";
 import { TiposVisadoAcordeon } from "./components/TiposVisadoAcordeon";
@@ -19,7 +19,7 @@ export const metadata = {
 export default function VisadosCubaEspanaPage() {
   return (
     <main className="min-h-screen bg-background text-foreground overflow-x-hidden selection:bg-black/10">
-      <Navbar />
+
       
       <div className="pt-24 lg:pt-32">
         <HeroVisados />
@@ -30,7 +30,7 @@ export default function VisadosCubaEspanaPage() {
         <CtaVisados />
       </div>
 
-      <Footer />
+
       <FloatingContact />
     </main>
   );

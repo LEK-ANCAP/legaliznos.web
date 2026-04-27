@@ -174,7 +174,7 @@ export function Navbar() {
                     <div className="pr-1">
                       <Link 
                         href="/contacto" 
-                        className="bg-black text-white px-6 py-2.5 rounded-full text-[14px] font-bold hover:bg-black/80 hover:-translate-y-0.5 transition-all shadow-md"
+                        className="inline-flex items-center justify-center h-[38px] bg-black text-white px-6 rounded-full text-[14px] font-bold hover:bg-black/80 hover:-translate-y-0.5 transition-all shadow-md leading-none"
                       >
                         Contacto
                       </Link>
@@ -209,7 +209,7 @@ export function Navbar() {
               >
                 <Link 
                   href="/contacto" 
-                  className="bg-black text-white px-5 py-2.5 rounded-full text-[14px] font-bold hover:bg-black/80 transition-colors shadow-md"
+                  className="inline-flex items-center justify-center h-[38px] bg-black text-white px-5 rounded-full text-[14px] font-bold hover:bg-black/80 transition-colors shadow-md leading-none"
                 >
                   Contacto
                 </Link>

@@ -1,5 +1,5 @@
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+
+
 import { FloatingContact } from "@/components/FloatingContact";
 import { HeroLegalizacion } from "./components/HeroLegalizacion";
 import { SituacionesAcordeon } from "./components/SituacionesAcordeon";
@@ -14,7 +14,7 @@ import { CtaYRelacionados } from "./components/CtaYRelacionados";
 export default function LegalizacionDocumentosCubanosPage() {
   return (
     <main className="min-h-screen bg-background text-foreground overflow-x-hidden selection:bg-black/10">
-      <Navbar />
+
       
       <div className="pt-24 lg:pt-32">
         <HeroLegalizacion />
@@ -28,7 +28,7 @@ export default function LegalizacionDocumentosCubanosPage() {
         <CtaYRelacionados />
       </div>
 
-      <Footer />
+
       <FloatingContact />
     </main>
   );

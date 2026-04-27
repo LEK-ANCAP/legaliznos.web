@@ -1,5 +1,5 @@
-import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
+
+
 import { CountdownBanner } from "@/components/CountdownBanner";
 import Link from "next/link";
 import { ChevronRight, ArrowRight, CheckCircle2, AlertTriangle, FileText, CalendarClock, Phone } from "lucide-react";
@@ -8,7 +8,7 @@ import { Button } from "@heroui/react";
 export default function RegularizacionBlog() {
   return (
     <>
-      <Navbar />
+
       
       <main className="pt-32 pb-24 bg-white min-h-screen">
         <article className="max-w-[800px] mx-auto px-6 lg:px-8">
@@ -412,7 +412,7 @@ export default function RegularizacionBlog() {
         </article>
       </main>
       
-      <Footer />
+
     </>
   );
 }
