@@ -15,7 +15,7 @@ export default function PrivacidadPage() {
           Política de Privacidad
         </h1>
         
-        <div className="prose prose-lg prose-p:text-black/70 prose-p:font-medium prose-p:leading-relaxed prose-headings:text-black prose-headings:font-bold prose-a:text-black prose-a:font-bold hover:prose-a:underline">
+        <div className="flex flex-col gap-5 text-[17px] text-black/70 font-medium leading-relaxed [&>h2]:text-[22px] [&>h2]:font-bold [&>h2]:text-black [&>h2]:mt-8 [&>h2]:mb-2 [&>h3]:text-[19px] [&>h3]:font-bold [&>h3]:text-black [&>h3]:mt-6 [&>h3]:mb-2 [&>ul]:list-disc [&>ul]:pl-6 [&>ul]:flex [&>ul]:flex-col [&>ul]:gap-2 [&>p]:m-0 [&>a]:text-black [&>a]:font-bold hover:[&>a]:underline">
           
           <p>
             En <strong className="text-black">LegalizaNos</strong> estamos comprometidos con la protección de tu privacidad. Esta política explica cómo recopilamos, utilizamos y protegemos la información personal que nos proporcionas, en cumplimiento con el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo (RGPD) y la Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).
