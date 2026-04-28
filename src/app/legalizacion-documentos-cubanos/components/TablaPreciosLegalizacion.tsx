@@ -4,11 +4,17 @@ import { CheckCircle2, AlertCircle, Zap } from "lucide-react";
 import { Tabs, Tab } from "@heroui/react";
 
 const tableConsulado = [
-  { doc: "Cualquier documento", desc: "Registrales, penales, médicos, académicos...", priceStd: "200€", priceExp: "250€", timeStd: "1 mes", timeExp: "1-2 semanas" },
+  { doc: "Documentos Registrales", desc: "Certificados de nacimiento, matrimonio, soltería, divorcio, defunción...", priceStd: "200€", priceExp: "250€", timeStd: "1 mes", timeExp: "1-2 semanas" },
+  { doc: "Antecedentes Penales", desc: "Certificado de antecedentes penales", priceStd: "200€", priceExp: "250€", timeStd: "1 mes", timeExp: "1-2 semanas" },
+  { doc: "Documentos Médicos", desc: "Certificados Médicos, No Inhabilitado, Título de medicina, etc", priceStd: "200€", priceExp: "250€", timeStd: "1 mes", timeExp: "1-2 semanas" },
+  { doc: "Documentos Académicos", desc: "Títulos, certificaciones de notas, planes de estudio...", priceStd: "200€", priceExp: "250€", timeStd: "1 mes", timeExp: "1-2 semanas" },
 ];
 
 const tableCompleta = [
-  { doc: "Cualquier documento", desc: "Registrales, penales, médicos, académicos...", priceStd: "250€", priceExp: "350€", timeStd: "30-45 días", timeExp: "1 mes" },
+  { doc: "Documentos Registrales", desc: "Certificados de nacimiento, matrimonio, soltería, divorcio, defunción...", priceStd: "250€", priceExp: "350€", timeStd: "30-45 días", timeExp: "1 mes" },
+  { doc: "Antecedentes Penales", desc: "Certificado de antecedentes penales", priceStd: "250€", priceExp: "350€", timeStd: "30-45 días", timeExp: "1 mes" },
+  { doc: "Documentos Médicos", desc: "Certificados Médicos, No Inhabilitado, Título de medicina, etc", priceStd: "250€", priceExp: "350€", timeStd: "30-45 días", timeExp: "1 mes" },
+  { doc: "Documentos Académicos", desc: "Títulos, certificaciones de notas, planes de estudio...", priceStd: "250€", priceExp: "350€", timeStd: "30-45 días", timeExp: "1 mes" },
 ];
 
 export function TablaPreciosLegalizacion() {
