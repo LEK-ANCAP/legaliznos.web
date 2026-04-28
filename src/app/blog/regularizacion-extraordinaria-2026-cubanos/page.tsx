@@ -175,9 +175,9 @@ export default function RegularizacionBlog() {
           <section className="mb-16">
             <h2 className="text-[2rem] font-bold tracking-tight text-black mb-6">Antecedentes penales de Cuba para la regularización</h2>
             <p className="text-[17px] text-black/70 mb-6">
-              Aquí es donde la regularización se complica para los cubanos. El decreto pide certificado de antecedentes penales de tu país de origen. Para los cubanos, eso significa obtener y legalizar antecedentes penales de Cuba — un proceso que normalmente tarda 2-3 meses.
+              Aquí es donde la regularización se complica para los cubanos. El decreto pide certificado de antecedentes penales de tu país de origen. Para los cubanos, eso significa obtener y legalizar antecedentes penales de Cuba — un proceso que normalmente tarda 30-45 días.
             </p>
-            <p className="text-[17px] font-bold text-black mb-6">¿Pero tengo que esperar 2-3 meses si el plazo cierra el 30 de junio?</p>
+            <p className="text-[17px] font-bold text-black mb-6">¿Pero tengo que esperar 30-45 días si el plazo cierra el 30 de junio?</p>
             <p className="text-[17px] text-black/70 mb-6">No necesariamente. El decreto contempla dos opciones:</p>
 
             <div className="space-y-6 mb-8">

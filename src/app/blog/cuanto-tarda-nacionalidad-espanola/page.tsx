@@ -179,7 +179,7 @@ export default function BlogCuantoTardaNacionalidad() {
                   <div className="absolute top-0 right-0 p-4 font-bold text-black/10 text-[40px] leading-none select-none">1</div>
                   <h3 className="text-[20px] font-bold text-black mb-2">Preparación del expediente <span className="text-[16px] text-black/60">(1-3 meses)</span></h3>
                   <ul className="list-disc pl-5 space-y-1 text-[16px]">
-                    <li>Obtener y legalizar documentos cubanos (nacimiento, antecedentes) — 2-3 meses si empiezas de cero</li>
+                    <li>Obtener y legalizar documentos cubanos (nacimiento, antecedentes) — 30-45 días si empiezas de cero</li>
                     <li>Aprobar examen CCSE (convocatorias cada 2-3 meses)</li>
                     <li>Reunir documentación complementaria</li>
                     <li><strong>Consejo:</strong> empieza por los documentos cubanos — son lo que más tarda</li>
@@ -252,8 +252,8 @@ export default function BlogCuantoTardaNacionalidad() {
               
               <h3 className="text-[18px] font-bold text-black mb-2 mt-6">Los documentos que necesitas legalizar:</h3>
               <ul className="list-disc pl-5 space-y-2 mb-6">
-                <li>Certificado de nacimiento (MINJUS + Consulado) — 2-3 meses</li>
-                <li>Certificado de antecedentes penales (MINJUS + Consulado) — 2-3 meses</li>
+                <li>Certificado de nacimiento (MINJUS + Consulado) — 30-45 días</li>
+                <li>Certificado de antecedentes penales (MINJUS + Consulado) — 30-45 días</li>
               </ul>
               
               <p className="mb-4">Estos documentos tienen caducidad. Si los pides demasiado pronto, pueden caducar antes de que el Ministerio revise tu expediente. Si los pides demasiado tarde, retrasan la presentación.</p>

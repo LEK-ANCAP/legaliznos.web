@@ -10,7 +10,7 @@ const faqs = [
   },
   {
     question: "¿Cuánto tarda?",
-    answer: "Legalización completa: 2-3 meses. Exprés: 1 mes. Arraigo: 3-6 meses de resolución. Nacionalidad: 12-18 meses. Son plazos reales basados en lo que vemos día a día, no lo que dice la ley en teoría."
+    answer: "Legalización completa: 30-45 días. Exprés: 1 mes. Arraigo: 3-6 meses de resolución. Nacionalidad: 12-18 meses. Son plazos reales basados en lo que vemos día a día, no lo que dice la ley en teoría."
   },
   {
     question: "¿Me vais a cobrar más de lo que me digáis?",

@@ -4,17 +4,11 @@ import { CheckCircle2, AlertCircle, Zap } from "lucide-react";
 import { Tabs, Tab } from "@heroui/react";
 
 const tableConsulado = [
-  { doc: "Registrales", desc: "certificado de nacimiento, matrimonio, defunción, divorcio, soltería, estado conyugal, vigencia de matrimonio", priceStd: "120€", priceExp: "200€", timeStd: "2-3 semanas", timeExp: "1 semana" },
-  { doc: "Antecedentes penales", desc: "certificado de antecedentes penales de Cuba", priceStd: "120€", priceExp: "200€", timeStd: "2-3 semanas", timeExp: "1 semana" },
-  { doc: "Médicos", desc: "certificado médico, certificado de salud, examen médico para visado", priceStd: "120€", priceExp: "200€", timeStd: "2-3 semanas", timeExp: "1 semana" },
-  { doc: "Académicos", desc: "título universitario, título de técnico medio, certificado de notas, diploma de bachiller", priceStd: "150€", priceExp: "250€", timeStd: "3-4 semanas", timeExp: "2 semanas" },
+  { doc: "Cualquier documento", desc: "Registrales, penales, médicos, académicos...", priceStd: "200€", priceExp: "250€", timeStd: "1 mes", timeExp: "1-2 semanas" },
 ];
 
 const tableCompleta = [
-  { doc: "Registrales", desc: "certificado de nacimiento, matrimonio, defunción, divorcio, soltería, estado conyugal, vigencia de matrimonio", priceStd: "250€", priceExp: "400€", timeStd: "2-3 meses", timeExp: "~1 mes" },
-  { doc: "Antecedentes penales", desc: "certificado de antecedentes penales de Cuba (obtención + legalización completa)", priceStd: "250€", priceExp: "400€", timeStd: "2-3 meses", timeExp: "~1 mes" },
-  { doc: "Médicos", desc: "certificado médico, certificado de salud, examen médico para visado", priceStd: "250€", priceExp: "400€", timeStd: "2-3 meses", timeExp: "~1 mes" },
-  { doc: "Académicos", desc: "título universitario, título de técnico medio, certificado de notas, diploma de bachiller (incluye paso previo por MES/MINED)", priceStd: "350€", priceExp: "500€", timeStd: "2-4 meses", timeExp: "~6 semanas" },
+  { doc: "Cualquier documento", desc: "Registrales, penales, médicos, académicos...", priceStd: "250€", priceExp: "350€", timeStd: "30-45 días", timeExp: "1 mes" },
 ];
 
 export function TablaPreciosLegalizacion() {

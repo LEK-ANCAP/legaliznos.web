@@ -5,7 +5,7 @@ const pricingList = [
   {
     service: "Legalización documento cubano (completa)",
     price: "250€",
-    time: "2-3 meses",
+    time: "30-45 días",
     includes: "Obtención + MINJUS + Consulado + envío a domicilio"
   },
   {
@@ -16,9 +16,15 @@ const pricingList = [
   },
   {
     service: "Solo Consulado (ya tienes MINJUS)",
-    price: "150€",
-    time: "3-6 semanas",
+    price: "200€",
+    time: "1 mes",
     includes: "Legalización consular + envío a domicilio"
+  },
+  {
+    service: "Solo Consulado exprés",
+    price: "250€",
+    time: "1-2 semanas",
+    includes: "Legalización consular con gestión prioritaria"
   },
   {
     service: "Arraigo social (expediente completo)",

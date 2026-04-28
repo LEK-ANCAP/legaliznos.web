@@ -56,29 +56,11 @@ export default function PreciosPage() {
                     </tr>
                   </thead>
                   <tbody className="text-[15px] text-black/80 font-medium">
-                    <tr className="border-b border-black/5 hover:bg-black/5 transition-colors">
-                      <td className="py-5 px-6 font-bold text-black">Registrales</td>
-                      <td className="py-5 px-6 text-[14px] text-black/60">Nacimiento, matrimonio, defunción, divorcio, soltería</td>
-                      <td className="py-5 px-6 font-bold">Desde 250€<br/><span className="text-[12px] font-medium text-black/40">2-3 meses</span></td>
-                      <td className="py-5 px-6 font-bold text-[#E63946]">Desde 350€<br/><span className="text-[12px] font-medium text-black/40">~1 mes</span></td>
-                    </tr>
-                    <tr className="border-b border-black/5 hover:bg-black/5 transition-colors">
-                      <td className="py-5 px-6 font-bold text-black">Antecedentes</td>
-                      <td className="py-5 px-6 text-[14px] text-black/60">Certificado de antecedentes penales de Cuba</td>
-                      <td className="py-5 px-6 font-bold">Desde 250€<br/><span className="text-[12px] font-medium text-black/40">2-3 meses</span></td>
-                      <td className="py-5 px-6 font-bold text-[#E63946]">Desde 350€<br/><span className="text-[12px] font-medium text-black/40">~1 mes</span></td>
-                    </tr>
-                    <tr className="border-b border-black/5 hover:bg-black/5 transition-colors">
-                      <td className="py-5 px-6 font-bold text-black">Médicos</td>
-                      <td className="py-5 px-6 text-[14px] text-black/60">Certificado médico, examen médico para visado</td>
-                      <td className="py-5 px-6 font-bold">Desde 250€<br/><span className="text-[12px] font-medium text-black/40">2-3 meses</span></td>
-                      <td className="py-5 px-6 font-bold text-[#E63946]">Desde 350€<br/><span className="text-[12px] font-medium text-black/40">~1 mes</span></td>
-                    </tr>
                     <tr className="hover:bg-black/5 transition-colors">
-                      <td className="py-5 px-6 font-bold text-black">Académicos</td>
-                      <td className="py-5 px-6 text-[14px] text-black/60">Título, notas, bachiller (incluye MES/MINED)</td>
-                      <td className="py-5 px-6 font-bold">Desde 380€<br/><span className="text-[12px] font-medium text-black/40">2-4 meses</span></td>
-                      <td className="py-5 px-6 font-bold text-[#E63946]">Desde 480€<br/><span className="text-[12px] font-medium text-black/40">~6 semanas</span></td>
+                      <td className="py-5 px-6 font-bold text-black">Cualquier tipo</td>
+                      <td className="py-5 px-6 text-[14px] text-black/60">Registrales, penales, académicos, médicos...</td>
+                      <td className="py-5 px-6 font-bold">250€<br/><span className="text-[12px] font-medium text-black/40">30-45 días</span></td>
+                      <td className="py-5 px-6 font-bold text-[#E63946]">350€<br/><span className="text-[12px] font-medium text-black/40">1 mes</span></td>
                     </tr>
                   </tbody>
                 </table>
@@ -103,15 +85,10 @@ export default function PreciosPage() {
                     </tr>
                   </thead>
                   <tbody className="text-[15px] text-black/80 font-medium">
-                    <tr className="border-b border-black/5 hover:bg-black/5 transition-colors">
-                      <td className="py-4 px-6 font-bold text-black">Registrales / Penales / Médicos</td>
-                      <td className="py-4 px-6 font-bold">Desde 150€</td>
-                      <td className="py-4 px-6 font-bold text-[#E63946]">Desde 200€</td>
-                    </tr>
                     <tr className="hover:bg-black/5 transition-colors">
-                      <td className="py-4 px-6 font-bold text-black">Académicos</td>
-                      <td className="py-4 px-6 font-bold">Desde 180€</td>
-                      <td className="py-4 px-6 font-bold text-[#E63946]">Desde 250€</td>
+                      <td className="py-4 px-6 font-bold text-black">Cualquier tipo</td>
+                      <td className="py-4 px-6 font-bold">200€<br/><span className="text-[12px] font-medium text-black/40">1 mes</span></td>
+                      <td className="py-4 px-6 font-bold text-[#E63946]">250€<br/><span className="text-[12px] font-medium text-black/40">1-2 semanas</span></td>
                     </tr>
                   </tbody>
                 </table>

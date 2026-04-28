@@ -42,7 +42,7 @@ export function HeroLegalizacion() {
               <div className="hidden md:block w-1.5 h-1.5 rounded-full bg-black/10" />
               <div className="flex items-center gap-2">
                 <Clock className="w-5 h-5 text-black" />
-                <span className="text-[15px] font-bold tracking-tight">2-3 meses <span className="font-medium text-black/50 ml-1">Plazo medio</span></span>
+                <span className="text-[15px] font-bold tracking-tight">30-45 días <span className="font-medium text-black/50 ml-1">Plazo medio</span></span>
               </div>
               <div className="hidden md:block w-1.5 h-1.5 rounded-full bg-black/10" />
               <div className="flex items-center gap-2">

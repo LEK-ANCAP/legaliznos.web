@@ -73,7 +73,7 @@ export default function LegalizacionExpresPage() {
             <div className="text-[13px] font-medium text-black/50 leading-tight">Plazo exprés estimado</div>
           </div>
           <div className="bg-[#FAFAFA] p-4 rounded-2xl border border-black/5">
-            <div className="text-[18px] font-bold text-black mb-1">vs 2-3 meses</div>
+            <div className="text-[18px] font-bold text-black mb-1">vs 30-45 días</div>
             <div className="text-[13px] font-medium text-black/50 leading-tight">Plazo estándar</div>
           </div>
           <div className="bg-[#FAFAFA] p-4 rounded-2xl border border-black/5">
@@ -174,7 +174,7 @@ export default function LegalizacionExpresPage() {
                   ["Cita del Consulado", "Siguiente disponible", "Prioridad en agenda"],
                   ["Envío del documento", "Correo certificado", "Envío urgente"],
                   ["Seguimiento WhatsApp", "Cada avance", "Actualización diaria si es necesario"],
-                  ["Plazo estimado", "2-3 meses", "~1 mes"]
+                  ["Plazo estimado", "30-45 días", "~1 mes"]
                 ].map((row, i) => (
                   <tr key={i} className="group hover:bg-[#FAFAFA] transition-colors">
                     <td className="py-4 px-4 md:px-6 font-semibold text-black/70">{row[0]}</td>
@@ -219,10 +219,7 @@ export default function LegalizacionExpresPage() {
                 </thead>
                 <tbody className="divide-y divide-black/5">
                   {[
-                    ["Registrales (nacimiento, matrimonio, defunción, divorcio, soltería)", "Desde 250€", "Desde 350€", "+100€"],
-                    ["Antecedentes penales", "Desde 250€", "Desde 350€", "+100€"],
-                    ["Médicos (certificado médico, salud)", "Desde 250€", "Desde 350€", "+100€"],
-                    ["Académicos (títulos, notas — incluye MES/MINED)", "Desde 380€", "Desde 480€", "+100€"]
+                    ["Cualquier tipo de documento", "250€", "350€", "+100€"]
                   ].map((row, i) => (
                     <tr key={i} className="hover:bg-[#FAFAFA] transition-colors">
                       <td className="py-4 px-4 md:px-6 font-semibold text-black/70">{row[0]}</td>
@@ -255,10 +252,7 @@ export default function LegalizacionExpresPage() {
                 </thead>
                 <tbody className="divide-y divide-black/5">
                   {[
-                    ["Registrales", "Desde 120€", "Desde 180€", "+60€"],
-                    ["Antecedentes penales", "Desde 120€", "Desde 180€", "+60€"],
-                    ["Médicos", "Desde 120€", "Desde 180€", "+60€"],
-                    ["Académicos", "Desde 150€", "Desde 210€", "+60€"]
+                    ["Cualquier tipo de documento", "200€", "250€", "+50€"]
                   ].map((row, i) => (
                     <tr key={i} className="hover:bg-[#FAFAFA] transition-colors">
                       <td className="py-4 px-4 md:px-6 font-semibold text-black/70">{row[0]}</td>

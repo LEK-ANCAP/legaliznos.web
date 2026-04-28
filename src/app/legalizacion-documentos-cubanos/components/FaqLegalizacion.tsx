@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     question: "¿Cuánto tarda la legalización de documentos cubanos?",
-    answer: "Plazo estándar: 2-3 meses. Servicio exprés: aproximadamente 1 mes. Estos plazos dependen de la situación en Cuba en cada momento (disponibilidad del registro, volumen del MINJUS, citas del Consulado). Te damos una estimación realista al empezar y te informamos si hay cambios."
+    answer: "Plazo estándar: 30-45 días. Servicio exprés: 1 mes. Estos plazos dependen de la situación en Cuba en cada momento (disponibilidad del registro, volumen del MINJUS, citas del Consulado). Te damos una estimación realista al empezar y te informamos si hay cambios."
   },
   {
     question: "¿Necesito ir a Cuba para legalizar mis documentos?",

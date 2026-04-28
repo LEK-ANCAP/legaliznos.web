@@ -13,7 +13,7 @@ const servicesList = [
     expanded: "Antecedentes penales, nacimiento, matrimonio, soltería, divorcio, títulos académicos y más. Nuestro equipo en La Habana se encarga de todo: obtención en registro, legalización MINJUS y Consulado. Tú recibes el documento listo en casa.",
     docTypes: ["Registrales", "MINJUS", "MINSAP", "Docentes", "INASS", "Notariales"],
     dato: "Desde 250€",
-    plazo: "2-3 meses",
+    plazo: "30-45 días",
     cta: "Ver detalles y precios",
     href: "/legalizacion-documentos-cubanos",
   },

@@ -216,7 +216,7 @@ export default function BlogArraigoRequisitos() {
                   <li>Hay que obtenerlos en Cuba (registro de antecedentes)</li>
                   <li>Legalizarlos en el MINJUS (Ministerio de Justicia de Cuba)</li>
                   <li>Legalizarlos en el Consulado de España en La Habana</li>
-                  <li>Plazo: 2-3 meses de gestión</li>
+                  <li>Plazo: 30-45 días de gestión</li>
                   <li>Caducidad: generalmente 6 meses desde la expedición</li>
                   <li className="text-white font-bold">Cuba NO está en el Convenio de La Haya — la apostilla NO vale</li>
                 </ul>

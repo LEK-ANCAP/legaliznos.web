@@ -34,14 +34,14 @@ export function DocumentosNacionalidad() {
                 <div className="w-2 h-2 rounded-full bg-[#F5A524] shrink-0 mt-2 md:mt-0" />
                 <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-2">
                   <span className="text-[16px] font-bold text-black">Certificado de nacimiento cubano</span>
-                  <span className="text-[13px] font-bold text-[#F5A524] bg-[#F5A524]/10 px-3 py-1 rounded-full w-fit">Tarda 2-3 meses</span>
+                  <span className="text-[13px] font-bold text-[#F5A524] bg-[#F5A524]/10 px-3 py-1 rounded-full w-fit">Tarda 30-45 días</span>
                 </div>
               </div>
               <div className="bg-white border border-black/5 rounded-2xl p-5 flex items-start md:items-center gap-4">
                 <div className="w-2 h-2 rounded-full bg-[#F5A524] shrink-0 mt-2 md:mt-0" />
                 <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-2">
                   <span className="text-[16px] font-bold text-black">Certificado de antecedentes penales cubano</span>
-                  <span className="text-[13px] font-bold text-[#F5A524] bg-[#F5A524]/10 px-3 py-1 rounded-full w-fit">Tarda 2-3 meses</span>
+                  <span className="text-[13px] font-bold text-[#F5A524] bg-[#F5A524]/10 px-3 py-1 rounded-full w-fit">Tarda 30-45 días</span>
                 </div>
               </div>
               <p className="text-[14px] text-black/60 font-medium px-2 mt-1">

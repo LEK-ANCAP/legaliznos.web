@@ -29,7 +29,7 @@ export default function BlogDocumentosResidencia() {
         "name": "¿Cuánto tiempo antes debo empezar a reunir documentos?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Empieza por los documentos cubanos (2-3 meses de gestión). Los demás documentos puedes reunirlos en 1-2 semanas. No dejes los cubanos para el final."
+          "text": "Empieza por los documentos cubanos (30-45 días de gestión). Los demás documentos puedes reunirlos en 1-2 semanas. No dejes los cubanos para el final."
         }
       },
       {
@@ -284,7 +284,7 @@ export default function BlogDocumentosResidencia() {
                     <tr>
                       <td className="py-3 px-4 font-semibold">Antecedentes penales Cuba (legalizados)</td>
                       <td className="py-3 px-4 font-bold text-[#25D366]">Nosotros lo gestionamos en Cuba</td>
-                      <td className="py-3 px-4">2-3 meses</td>
+                      <td className="py-3 px-4">30-45 días</td>
                     </tr>
                     <tr>
                       <td className="py-3 px-4 font-semibold">Antecedentes penales España</td>
@@ -321,7 +321,7 @@ export default function BlogDocumentosResidencia() {
                 </div>
                 <div>
                   <h3 className="text-[18px] font-bold text-black mb-2">¿Cuánto tiempo antes debo empezar a reunir documentos?</h3>
-                  <p className="text-black/70">Empieza por los documentos cubanos (2-3 meses de gestión). Los demás documentos puedes reunirlos en 1-2 semanas. No dejes los cubanos para el final.</p>
+                  <p className="text-black/70">Empieza por los documentos cubanos (30-45 días de gestión). Los demás documentos puedes reunirlos en 1-2 semanas. No dejes los cubanos para el final.</p>
                 </div>
                 <div>
                   <h3 className="text-[18px] font-bold text-black mb-2">¿Puedo usar copias digitales?</h3>
