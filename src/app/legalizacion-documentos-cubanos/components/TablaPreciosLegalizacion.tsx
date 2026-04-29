@@ -234,7 +234,7 @@ export function TablaPreciosLegalizacion() {
           </Tabs>
         </div>
 
-        {/* Descuentos */}
+        {/* Descuentos (Comentados temporalmente)
         <div className="bg-white border border-black/5 rounded-2xl md:rounded-3xl p-6 md:p-8 shadow-[0_8px_30px_rgba(0,0,0,0.02)] mb-12">
           <h3 className="text-[18px] font-bold text-black tracking-tight mb-6">Descuentos aplicables</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -248,6 +248,7 @@ export function TablaPreciosLegalizacion() {
             </div>
           </div>
         </div>
+        */}
 
         {/* Disclaimer y Pago */}
         <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-start md:items-center mt-8 md:mt-12">
